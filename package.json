@@ -1,0 +1,17 @@
+{
+  "name": "github-session",
+  "version": "1.0.0",
+  "description": "Chart Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/server.js",
+    "generate-data": "node scripts/convertCSVtoJSON.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "livereload-express": "^1.0.3"
+  }
+}
